@@ -8,6 +8,6 @@
 
 This repository will help you understand the usage of AWS SES for sending Emails by using Templates.
 
-You can use AWS CLI to Manage Templates and Send Emails [refer here](https://github.com/intelliconnect/aws-ses/Using-CLI) 
+You can use AWS CLI to Manage Templates and Send Emails [refer here](https://github.com/intelliconnect/aws-ses/tree/main/Using-CLI) 
 OR
-You can use AWS SDK using NODEJS to Manage Templates and Send Emails [refer here](https://github.com/intelliconnect/aws-ses/Using-SDK) 
+You can use AWS SDK using NODEJS to Manage Templates and Send Emails [refer here](https://github.com/intelliconnect/aws-ses/tree/main/Using-SDK) 
