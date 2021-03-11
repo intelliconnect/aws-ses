@@ -1,0 +1,10 @@
+{
+  "Source":"VG <tech.support@vg-industrial.com>",
+  "Template": "MyTemplate",
+  "ConfigurationSetName": "",
+  "Destination": {
+    "ToAddresses": [ "shivanjali.nimbalkar@intelliconnect-tech.com"
+    ]
+  },
+  "TemplateData": "{ \"name\":\"Shivanjali\", \"favoriteanimal\": \"Dog\" }"
+}
