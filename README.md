@@ -5,11 +5,23 @@
 
 ## Pre Requisites : 
 * Access to [AWS SES Console](https://console.aws.amazon.com/ses/)
-* Verified Source Email to Send Email From : 
-#### Steps : 
-1. 
+* Verified Source Email to Send Email From
 * AWS CLI
-#### Steps : 
+
+#### Steps to Verify Source Email: 
+1. Sign in to the AWS Management Console and open the [Amazon SES console](https://console.aws.amazon.com/ses/)
+2. In the console, use the region selector to choose the AWS Region where want to verify the email address, as shown in the following image.
+![AWS Version](/images/verify-email-address-region.png)
+3. In the left navigation bar, choose Email Addresses under Identity Management.
+4. Choose Verify a **New Email Address**.
+5. In the Verify a **New Email Address** pop up box, type your Email Address and then choose **Verify This Email Address**.
+
+* You'll receive an email with the subject line: "Amazon Web Services - Email Address Verification Request in region RegionName," where RegionName is the name of the AWS Region you selected in step 2. Click the link in the email.
+
+* In the list of email addresses, if the email address was verified, the value in the Status column will be "verified".
+
+ 
+#### Steps to Install AWS CLI: 
 1. Install AWS CLI : 
 ```
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
