@@ -1,0 +1,8 @@
+{
+    "Template": {
+      "TemplateName": "BookReferences",
+      "SubjectPart": "Book References for {{user.firstName}} {{user.lastName}}",
+      "HtmlPart": "<h1>Your Book References</h1><p>We have following book references based on your previous purchases : </p><ul>{{#each book_references}}<li>{{value}}</li>{{/each}}</ul><p>You can purchase these books by visiting the <a href=https://www.example.com/references>Book Center</a>.</p>",
+      "TextPart": "Your Book References\n\nWe have following book references based on your previous purchases:\n{{#each book_references}}- {{value}}\n{{/each}}\nYou can purchase these books by visiting the Book Center at <a href=https://www.example.com/references>"
+    }
+  }

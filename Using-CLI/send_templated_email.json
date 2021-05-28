@@ -1,0 +1,10 @@
+{
+    "Source":"Sender Name <tech.support@vg-industrial.com>",
+    "Template":"BookReferences",
+    "Destination":{
+    "ToAddresses":[
+        "shivanjali.nimbalkar@intelliconnect-tech.com"
+    ]
+    },
+    "TemplateData":"{\"user\":{\"firstName\":\"Shivanjali\",\"lastName\":\"Nimbalkar\"},\"book_references\":[{\"value\":\"The Alchemist by Paulo Coelho\"},{\"value\":\"You are Born to Blossom by Dr APJ Abdul Kalam\"},{\"value\":\"The Power of Your Subconscious Mind by Joseph Murphy\"}]}"
+}
